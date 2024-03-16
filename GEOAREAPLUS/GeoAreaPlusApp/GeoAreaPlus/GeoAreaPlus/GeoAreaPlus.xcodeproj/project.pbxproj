@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		169EFDB2F980BF051CA72117 /* Pods_GeoAreaPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC65D5AA8172A39C1EBE0877 /* Pods_GeoAreaPlus.framework */; };
+		617F79962AEAB43100179079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79952AEAB43100179079 /* AppDelegate.swift */; };
+		617F79982AEAB43100179079 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79972AEAB43100179079 /* SceneDelegate.swift */; };
+		617F799D2AEAB43100179079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617F799B2AEAB43100179079 /* Main.storyboard */; };
+		617F799F2AEAB43200179079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617F799E2AEAB43200179079 /* Assets.xcassets */; };
+		617F79A22AEAB43200179079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617F79A02AEAB43200179079 /* LaunchScreen.storyboard */; };
+		617F79B32AEAB58200179079 /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79AD2AEAB58200179079 /* FeedbackVC.swift */; };
+		617F79B42AEAB58200179079 /* sidemenuTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79AE2AEAB58200179079 /* sidemenuTblCell.swift */; };
+		617F79B52AEAB58200179079 /* Abtsvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79AF2AEAB58200179079 /* Abtsvc.swift */; };
+		617F79B62AEAB58200179079 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79B02AEAB58200179079 /* Helper.swift */; };
+		617F79C02AEAB5CB00179079 /* Areaoftriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79B92AEAB5CB00179079 /* Areaoftriangle.swift */; };
+		617F79C12AEAB5CB00179079 /* Areaofsphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79BA2AEAB5CB00179079 /* Areaofsphere.swift */; };
+		617F79C22AEAB5CB00179079 /* AreaofCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79BB2AEAB5CB00179079 /* AreaofCircle.swift */; };
+		617F79C32AEAB5CB00179079 /* Areaoftrapezuim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79BC2AEAB5CB00179079 /* Areaoftrapezuim.swift */; };
+		617F79C42AEAB5CB00179079 /* Areaofrectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79BD2AEAB5CB00179079 /* Areaofrectangle.swift */; };
+		617F79C52AEAB5CB00179079 /* Areaofcube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79BE2AEAB5CB00179079 /* Areaofcube.swift */; };
+		617F79C62AEAB5CB00179079 /* Areaofcylinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79BF2AEAB5CB00179079 /* Areaofcylinder.swift */; };
+		617F79C82AEAB63800179079 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79C72AEAB63800179079 /* ViewController.swift */; };
+		617F79CA2AEAB64D00179079 /* Tabelvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79C92AEAB64D00179079 /* Tabelvc.swift */; };
+		617F79CE2AEAC34800179079 /* SidemenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79CD2AEAC34700179079 /* SidemenuVC.swift */; };
+		617F79D02AEAC35E00179079 /* SidemenuVCc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F79CF2AEAC35E00179079 /* SidemenuVCc.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19F934A63EC6FFF6599D36FF /* Pods-GeoAreaPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoAreaPlus.release.xcconfig"; path = "Target Support Files/Pods-GeoAreaPlus/Pods-GeoAreaPlus.release.xcconfig"; sourceTree = "<group>"; };
+		617F79922AEAB43100179079 /* GeoAreaPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoAreaPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		617F79952AEAB43100179079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		617F79972AEAB43100179079 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		617F799C2AEAB43100179079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		617F799E2AEAB43200179079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		617F79A12AEAB43200179079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		617F79A32AEAB43200179079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617F79AD2AEAB58200179079 /* FeedbackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
+		617F79AE2AEAB58200179079 /* sidemenuTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sidemenuTblCell.swift; sourceTree = "<group>"; };
+		617F79AF2AEAB58200179079 /* Abtsvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abtsvc.swift; sourceTree = "<group>"; };
+		617F79B02AEAB58200179079 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		617F79B92AEAB5CB00179079 /* Areaoftriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Areaoftriangle.swift; sourceTree = "<group>"; };
+		617F79BA2AEAB5CB00179079 /* Areaofsphere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Areaofsphere.swift; sourceTree = "<group>"; };
+		617F79BB2AEAB5CB00179079 /* AreaofCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaofCircle.swift; sourceTree = "<group>"; };
+		617F79BC2AEAB5CB00179079 /* Areaoftrapezuim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Areaoftrapezuim.swift; sourceTree = "<group>"; };
+		617F79BD2AEAB5CB00179079 /* Areaofrectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Areaofrectangle.swift; sourceTree = "<group>"; };
+		617F79BE2AEAB5CB00179079 /* Areaofcube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Areaofcube.swift; sourceTree = "<group>"; };
+		617F79BF2AEAB5CB00179079 /* Areaofcylinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Areaofcylinder.swift; sourceTree = "<group>"; };
+		617F79C72AEAB63800179079 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		617F79C92AEAB64D00179079 /* Tabelvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabelvc.swift; sourceTree = "<group>"; };
+		617F79CD2AEAC34700179079 /* SidemenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuVC.swift; sourceTree = "<group>"; };
+		617F79CF2AEAC35E00179079 /* SidemenuVCc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SidemenuVCc.swift; path = GeoAreaPlus/SidemenuVCc.swift; sourceTree = SOURCE_ROOT; };
+		868BF142A7707215653FDB80 /* Pods-GeoAreaPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoAreaPlus.debug.xcconfig"; path = "Target Support Files/Pods-GeoAreaPlus/Pods-GeoAreaPlus.debug.xcconfig"; sourceTree = "<group>"; };
+		DC65D5AA8172A39C1EBE0877 /* Pods_GeoAreaPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoAreaPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		617F798F2AEAB43100179079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169EFDB2F980BF051CA72117 /* Pods_GeoAreaPlus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		617F79892AEAB43100179079 = {
+			isa = PBXGroup;
+			children = (
+				617F79942AEAB43100179079 /* GeoAreaPlus */,
+				617F79932AEAB43100179079 /* Products */,
+				801F7C08F47CE88D9617C2E3 /* Pods */,
+				E8068C2391DB80CE092451B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		617F79932AEAB43100179079 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				617F79922AEAB43100179079 /* GeoAreaPlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		617F79942AEAB43100179079 /* GeoAreaPlus */ = {
+			isa = PBXGroup;
+			children = (
+				617F79952AEAB43100179079 /* AppDelegate.swift */,
+				617F79972AEAB43100179079 /* SceneDelegate.swift */,
+				617F79C72AEAB63800179079 /* ViewController.swift */,
+				617F79C92AEAB64D00179079 /* Tabelvc.swift */,
+				617F79B82AEAB5CB00179079 /* Converter */,
+				617F79AA2AEAB58200179079 /* Sidemenu */,
+				617F799B2AEAB43100179079 /* Main.storyboard */,
+				617F799E2AEAB43200179079 /* Assets.xcassets */,
+				617F79A02AEAB43200179079 /* LaunchScreen.storyboard */,
+				617F79A32AEAB43200179079 /* Info.plist */,
+			);
+			path = GeoAreaPlus;
+			sourceTree = "<group>";
+		};
+		617F79AA2AEAB58200179079 /* Sidemenu */ = {
+			isa = PBXGroup;
+			children = (
+				617F79CD2AEAC34700179079 /* SidemenuVC.swift */,
+				617F79CF2AEAC35E00179079 /* SidemenuVCc.swift */,
+				617F79AD2AEAB58200179079 /* FeedbackVC.swift */,
+				617F79AE2AEAB58200179079 /* sidemenuTblCell.swift */,
+				617F79AF2AEAB58200179079 /* Abtsvc.swift */,
+				617F79B02AEAB58200179079 /* Helper.swift */,
+			);
+			path = Sidemenu;
+			sourceTree = "<group>";
+		};
+		617F79B82AEAB5CB00179079 /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+				617F79B92AEAB5CB00179079 /* Areaoftriangle.swift */,
+				617F79BA2AEAB5CB00179079 /* Areaofsphere.swift */,
+				617F79BB2AEAB5CB00179079 /* AreaofCircle.swift */,
+				617F79BC2AEAB5CB00179079 /* Areaoftrapezuim.swift */,
+				617F79BD2AEAB5CB00179079 /* Areaofrectangle.swift */,
+				617F79BE2AEAB5CB00179079 /* Areaofcube.swift */,
+				617F79BF2AEAB5CB00179079 /* Areaofcylinder.swift */,
+			);
+			path = Converter;
+			sourceTree = "<group>";
+		};
+		801F7C08F47CE88D9617C2E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				868BF142A7707215653FDB80 /* Pods-GeoAreaPlus.debug.xcconfig */,
+				19F934A63EC6FFF6599D36FF /* Pods-GeoAreaPlus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E8068C2391DB80CE092451B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC65D5AA8172A39C1EBE0877 /* Pods_GeoAreaPlus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		617F79912AEAB43100179079 /* GeoAreaPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617F79A62AEAB43200179079 /* Build configuration list for PBXNativeTarget "GeoAreaPlus" */;
+			buildPhases = (
+				2400428B3C673EC13D2ED6A7 /* [CP] Check Pods Manifest.lock */,
+				617F798E2AEAB43100179079 /* Sources */,
+				617F798F2AEAB43100179079 /* Frameworks */,
+				617F79902AEAB43100179079 /* Resources */,
+				C979412E11BD035D529C49AB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoAreaPlus;
+			productName = GeoAreaPlus;
+			productReference = 617F79922AEAB43100179079 /* GeoAreaPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		617F798A2AEAB43100179079 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					617F79912AEAB43100179079 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 617F798D2AEAB43100179079 /* Build configuration list for PBXProject "GeoAreaPlus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 617F79892AEAB43100179079;
+			productRefGroup = 617F79932AEAB43100179079 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				617F79912AEAB43100179079 /* GeoAreaPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		617F79902AEAB43100179079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617F79A22AEAB43200179079 /* LaunchScreen.storyboard in Resources */,
+				617F799F2AEAB43200179079 /* Assets.xcassets in Resources */,
+				617F799D2AEAB43100179079 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2400428B3C673EC13D2ED6A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoAreaPlus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C979412E11BD035D529C49AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoAreaPlus/Pods-GeoAreaPlus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoAreaPlus/Pods-GeoAreaPlus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoAreaPlus/Pods-GeoAreaPlus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		617F798E2AEAB43100179079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617F79C32AEAB5CB00179079 /* Areaoftrapezuim.swift in Sources */,
+				617F79962AEAB43100179079 /* AppDelegate.swift in Sources */,
+				617F79B52AEAB58200179079 /* Abtsvc.swift in Sources */,
+				617F79C02AEAB5CB00179079 /* Areaoftriangle.swift in Sources */,
+				617F79CA2AEAB64D00179079 /* Tabelvc.swift in Sources */,
+				617F79C62AEAB5CB00179079 /* Areaofcylinder.swift in Sources */,
+				617F79CE2AEAC34800179079 /* SidemenuVC.swift in Sources */,
+				617F79B62AEAB58200179079 /* Helper.swift in Sources */,
+				617F79982AEAB43100179079 /* SceneDelegate.swift in Sources */,
+				617F79C52AEAB5CB00179079 /* Areaofcube.swift in Sources */,
+				617F79C12AEAB5CB00179079 /* Areaofsphere.swift in Sources */,
+				617F79C22AEAB5CB00179079 /* AreaofCircle.swift in Sources */,
+				617F79B32AEAB58200179079 /* FeedbackVC.swift in Sources */,
+				617F79D02AEAC35E00179079 /* SidemenuVCc.swift in Sources */,
+				617F79B42AEAB58200179079 /* sidemenuTblCell.swift in Sources */,
+				617F79C82AEAB63800179079 /* ViewController.swift in Sources */,
+				617F79C42AEAB5CB00179079 /* Areaofrectangle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		617F799B2AEAB43100179079 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617F799C2AEAB43100179079 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		617F79A02AEAB43200179079 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617F79A12AEAB43200179079 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		617F79A42AEAB43200179079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		617F79A52AEAB43200179079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		617F79A72AEAB43200179079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868BF142A7707215653FDB80 /* Pods-GeoAreaPlus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoAreaPlus/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject.GeoAreaPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		617F79A82AEAB43200179079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F934A63EC6FFF6599D36FF /* Pods-GeoAreaPlus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoAreaPlus/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject.GeoAreaPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		617F798D2AEAB43100179079 /* Build configuration list for PBXProject "GeoAreaPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617F79A42AEAB43200179079 /* Debug */,
+				617F79A52AEAB43200179079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617F79A62AEAB43200179079 /* Build configuration list for PBXNativeTarget "GeoAreaPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617F79A72AEAB43200179079 /* Debug */,
+				617F79A82AEAB43200179079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 617F798A2AEAB43100179079 /* Project object */;
+}
